@@ -1,0 +1,19 @@
+{
+  "name": "gamechain-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for GameChain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "solc": "^0.8.0",
+    "web3": "^4.0.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  }
+}
